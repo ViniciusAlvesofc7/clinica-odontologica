@@ -478,10 +478,10 @@ footer {
 
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:400px) {
     header{
         .center{
-            flex-direction: row;
+            flex-direction: column;
             justify-content: center;
 
             .logo{

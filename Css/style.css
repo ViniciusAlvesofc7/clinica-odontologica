@@ -375,9 +375,13 @@ footer section.footer i:hover {
   }
 }
 @media screen and (max-width: 400px) {
-  header .center {
-    flex-direction: column !important;
-    justify-content: center !important;
-    gap: 5px;
+  .phone h2 {
+    font-size: 16px;
+    line-height: 1.4;
+    word-wrap: break-word;
+  }
+  .phone span {
+    display: block;
+    margin-top: 5px;
   }
 }/*# sourceMappingURL=style.css.map */

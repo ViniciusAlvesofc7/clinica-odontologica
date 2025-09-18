@@ -378,5 +378,6 @@ footer section.footer i:hover {
   header .center {
     flex-direction: column !important;
     justify-content: center !important;
+    gap: 5px;
   }
 }/*# sourceMappingURL=style.css.map */

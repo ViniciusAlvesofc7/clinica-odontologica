@@ -1,0 +1,479 @@
+/* Universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    /*background-color: #ffdfd3;*/
+}
+
+.center {
+    margin: 0 auto;
+    width: 98%;
+    max-width: 1440px;
+}
+
+/* Site */
+
+header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 0 20px;
+    background-color: #7c0e07;
+
+    .center {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        width: 250px;
+        height: 60px;
+    }
+
+    .phone {
+        background-color: #ffdfd3;
+        color: #7c0e07;
+        padding: 10px;
+        text-align: center;
+        border-radius: 2px;
+    }
+}
+
+section.formulario {
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    background-color: #f9e9e4;
+    display: flex;
+    justify-content: stretch;
+
+
+    .foto-formulario {
+        width: calc(50% - 10px);
+        background-image: url('../Images/Smile.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .dados-formulario {
+        width: 50%;
+        padding: 8px 20px;
+        text-align: center;
+
+
+
+        h2 {
+            margin-top: 10px;
+            color: #7c0e07;
+            font-size: 30px;
+        }
+
+        p {
+            margin-top: 20px;
+            color: #9d372a;
+            font-size: 22px;
+        }
+
+        form {
+            margin-top: 30px;
+            padding: 0 20px;
+
+            input {
+                width: 100%;
+                height: 50px;
+                margin-bottom: 10px;
+                padding: 10px;
+                font-size: 18px;
+                border-radius: 8px;
+                border: none;
+                outline: none;
+
+                &[type=submit] {
+                    background-color: #7c0e07;
+                    color: white;
+                    font-size: 24px;
+                    font-weight: normal;
+                    cursor: pointer;
+                }
+            }
+
+            .date-time {
+                display: flex;
+                gap: 10px;
+
+                input[type=date],
+                input[type=time] {
+                    flex: 1;
+                    width: auto;
+                }
+            }
+        }
+
+    }
+}
+
+section.servicos {
+    height: 100%;
+    width: 100%;
+
+    .box-servicos {
+        width: 100%;
+        height: 200px;
+        display: flex;
+
+        .box-single {
+            height: 100%;
+            width: calc(100% / 5);
+            background-color: #7c0e07;
+
+            margin-left: 0;
+            text-align: center;
+
+            img {
+                margin: 30px 0;
+
+            }
+
+            p {
+                font-size: 22px;
+                font-weight: bold;
+
+                &.t1 {
+                    color: #ffdfd3;
+                }
+
+                &.t2 {
+                    color: #7c0e07;
+                }
+            }
+        }
+
+    }
+
+    .tratamento-servico {
+        width: 100%;
+        padding: 20px;
+        background-color: #f9e9e4;
+        background-image: url('../Images/Background.png');
+
+        h2 {
+            font-size: 26px;
+            margin: 40px 0px 25px 30px;
+            color: #7c0e07;
+        }
+
+        .list-servicos {
+            background-color: white;
+
+            .servicos-single {
+                width: 100%;
+                padding: 10px;
+                background-color: #fffefe;
+                border: 2px solid #7c0e07;
+                border-bottom: none;
+                cursor: pointer;
+                font-size: 18px;
+                transition: 1s;
+
+                &:hover {
+                    transition: 0s;
+                    opacity: 0.8;
+                }
+
+                h3 {
+                    font-size: 22px;
+                    color: #7c0e07;
+                    padding: 5px 0;
+
+                    span {
+                        margin-right: 10px;
+                        display: inline-block;
+                        transition: 0.6s;
+                    }
+
+                }
+
+                p {
+                    display: none;
+                    padding: 20px 2px;
+                    border-top: 1px solid #7c0e07;
+                    font-size: 20px;
+                }
+
+
+                &.ativo {
+                    span {
+                        transform: rotate(90deg);
+                    }
+
+                    p {
+                        display: block;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+section.sobre {
+    width: 100%;
+    height: 500px;
+    background-color: #fffefe;
+    display: flex;
+
+    .text-sobre {
+        width: 50%;
+        padding: 20px 10px;
+
+        img {
+            padding: 10px 15px;
+            width: auto;
+            height: 90px;
+        }
+
+        p {
+            color: #7c0e07;
+            font-size: 20px;
+            padding: 0 5px;
+            line-height: 1.6;
+        }
+    }
+
+    .img-sobre {
+        width: 50% !important;
+        height: 100% !important;
+        background-image: url('../Images/Clinica.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
+section.localizacao {
+    display: flex;
+
+    .informacao {
+        width: 50%;
+        padding: 30px 15px;
+        background-color: #bd604e;
+        text-align: center;
+        line-height: 1.8;
+
+        i {
+            color: #ffb396;
+            font-size: 30px;
+            margin: 8px 0;
+            text-shadow: 1px 1px 1px black;
+        }
+
+        p {
+            color: white;
+        }
+
+        h2 {
+            color: #ffb396;
+            text-shadow: 1px 1px 1px black;
+            margin: 8px 0;
+        }
+
+
+    }
+
+    .mapa {
+        width: 50%;
+        border: 5px solid #bd604e;
+
+        iframe {
+            width: 100% !important;
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    background-color: #7c0e07;
+
+    section.footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #7c0e07;
+
+        img {
+            width: 150px;
+        }
+
+        p {
+            color: #bd604e;
+        }
+
+        i {
+            font-size: 25px;
+            color: white;
+            margin-right: 25px;
+
+            &:hover {
+                color: #ffdfd3;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .center {
+        width: 100%;
+    }
+
+    section.formulario {
+        justify-content: center;
+
+
+        .foto-formulario {
+            display: none;
+        }
+
+        .dados-formulario {
+            width: 80%;
+            margin: auto;
+            background-color: #ffdfd3;
+        }
+    }
+
+    .box-single {
+
+        p {
+            font-size: 16px !important;
+        }
+    }
+
+    section.sobre {
+        flex-direction: column;
+        height: auto;
+
+        .text-sobre {
+            width: 100% !important;
+            height: 50%;
+
+            img {
+                width: auto;
+                height: 90px;
+            }
+
+            p {
+                color: #7c0e07;
+                font-size: 20px;
+                padding: 0 5px;
+                line-height: 1.6;
+            }
+        }
+
+        .img-sobre {
+            margin-top: 0 !important;
+            width: 100% !important;
+            height: 400px !important;
+            margin-top: 50px;
+        }
+
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 80px;
+    }
+
+    .logo {
+        width: auto !important;
+        height: auto !important;
+
+        img {
+            width: 180px;
+            height: auto;
+        }
+    }
+
+    .phone {
+        font-size: 8px;
+        padding: 5px !important;
+    }
+
+    section.formulario {
+        margin-top: 80px;
+        height: 550px;
+    }
+
+
+    .box-servicos {
+        p {
+            font-size: 12px !important;
+        }
+    }
+
+    .tratamento-servico {
+
+        h2 {
+            font-size: 22px !important;
+        }
+
+        .list-servicos {
+            h3 {
+                font-size: 18px !important;
+            }
+
+            p {
+                font-size: 16px !important;
+            }
+        }
+
+    }
+
+    .text-sobre {
+
+        p {
+            font-size: 18px !important;
+        }
+    }
+
+    .img-sobre {
+        height: 250px !important;
+    }
+
+    section.localizacao {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+        background-color: #bd604e;
+
+        .informacao {
+            width: 100%;
+        }
+
+        .mapa {
+            width: 100%;
+            height: 300px;
+
+            iframe {
+                width: 100% !important;
+                height: 300px;
+            }
+        }
+    }
+
+}

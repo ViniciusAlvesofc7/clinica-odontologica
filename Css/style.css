@@ -374,7 +374,7 @@ footer section.footer i:hover {
     height: 300px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 560px) {
   .phone h2 {
     font-size: 16px;
     line-height: 1.4;

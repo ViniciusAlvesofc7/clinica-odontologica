@@ -477,3 +477,20 @@ footer {
     }
 
 }
+
+@media screen and (max-width:360px) {
+    header{
+        .center{
+            flex-direction: row;
+            justify-content: center;
+
+            .logo{
+
+            }
+
+            .phone{
+
+            }
+        }
+    }
+}

@@ -516,31 +516,39 @@ footer {
 
     .box-servicos {
         height: 120px !important;
-    }
-}
 
-footer {
-    section.footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-        background-color: #7c0e07;
+        .box-single {
 
-        p {
-            display: none !important;
-        }
-
-        .social {
-            display: flex;
-            width: 130px;
-            height: auto;
-            justify-content: space-between;
-
-            i {
-                margin-right: 0 !important;
+            p.t1,
+            p.t2 {
+                display: none !important;
             }
         }
+    }
 
+    footer {
+        section.footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #7c0e07;
+
+            p {
+                display: none !important;
+            }
+
+            .social {
+                display: flex;
+                width: 130px;
+                height: auto;
+                justify-content: space-between;
+
+                i {
+                    margin-right: 0 !important;
+                }
+            }
+
+        }
     }
 }

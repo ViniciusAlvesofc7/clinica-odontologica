@@ -394,8 +394,11 @@ footer section.footer i:hover {
   footer section.footer p {
     display: none !important;
   }
-  footer section.footer i {
+  footer section.footer .social {
+    display: flex;
     gap: 5px !important;
+  }
+  footer section.footer .social i {
     margin-right: 0 !important;
   }
 }/*# sourceMappingURL=style.css.map */

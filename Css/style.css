@@ -399,9 +399,9 @@ footer section.footer i:hover {
     margin-top: 5px !important;
   }
   section.formulario {
-    margin-bottom: 20px;
+    height: 550px !important;
   }
-  .box-servicos .box-single {
+  .box-servicos {
     height: 120px !important;
   }
   .box-servicos .box-single p.t1,

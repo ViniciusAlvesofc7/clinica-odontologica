@@ -400,6 +400,7 @@ footer section.footer i:hover {
   }
   section.formulario {
     height: auto !important;
+    padding: 5px;
   }
   .box-servicos {
     height: 120px !important;

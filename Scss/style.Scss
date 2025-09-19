@@ -482,14 +482,33 @@ footer {
     .phone {
 
         h2 {
-            font-size: 16px;
-            line-height: 1.4;
-            word-wrap: break-word;
+            font-size: 16px !important;
+            line-height: 1.4 !important;
+            word-wrap: break-word !important;
         }
 
         span{
-            display: block;
-            margin-top: 5px;
+            display: block !important;
+            margin-top: 5px !important;
         }
     }
+
+    footer {
+    section.footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #7c0e07;
+
+        p {
+            display: none !important;
+        }
+
+        i {
+            gap: 5px !important;
+            margin-right: 0 !important;
+        }
+    }
+}
 }

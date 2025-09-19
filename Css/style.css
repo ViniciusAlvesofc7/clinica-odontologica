@@ -398,6 +398,15 @@ footer section.footer i:hover {
     display: block !important;
     margin-top: 5px !important;
   }
+  .box-servicos {
+    height: auto !important;
+  }
+  .box-servicos .box-single {
+    margin: 10px 0;
+  }
+  .box-servicos p {
+    display: none !important;
+  }
   footer section.footer {
     display: flex;
     justify-content: space-between;

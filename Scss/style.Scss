@@ -510,6 +510,17 @@ footer {
         }
     }
 
+    .box-servicos {
+        height: auto !important;
+        .box-single{
+            margin: 10px 0;
+        }
+
+        p {
+            display: none !important;
+        }
+    }
+
     footer {
         section.footer {
             display: flex;

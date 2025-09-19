@@ -509,12 +509,15 @@ footer {
             margin-top: 5px !important;
         }
     }
+    
+    section.formulario{
+        input[type=submit]{
+            margin-bottom: 10px;
+        }
+    }
 
     .box-servicos {
         height: auto !important;
-        .box-single{
-            margin: 10px 0;
-        }
 
         p {
             display: none !important;

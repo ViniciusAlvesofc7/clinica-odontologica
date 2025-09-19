@@ -398,11 +398,11 @@ footer section.footer i:hover {
     display: block !important;
     margin-top: 5px !important;
   }
+  section.formulario input[type=submit] {
+    margin-bottom: 10px;
+  }
   .box-servicos {
     height: auto !important;
-  }
-  .box-servicos .box-single {
-    margin: 10px 0;
   }
   .box-servicos p {
     display: none !important;

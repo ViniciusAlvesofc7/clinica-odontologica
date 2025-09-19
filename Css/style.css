@@ -396,11 +396,11 @@ footer section.footer i:hover {
   }
   footer section.footer .social {
     display: flex;
-    width: auto;
+    width: 130px;
     height: auto;
+    justify-content: space-between;
   }
   footer section.footer .social i {
-    gap: 5px !important;
     margin-right: 0 !important;
   }
 }/*# sourceMappingURL=style.css.map */

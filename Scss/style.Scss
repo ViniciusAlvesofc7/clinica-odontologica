@@ -507,11 +507,11 @@ footer {
 
             .social {
                 display: flex;
-                width: auto;
+                width: 130px;
                 height: auto;
+                justify-content: space-between;
                 
                 i {
-                    gap: 5px !important;
                     margin-right: 0 !important;
                 }
             }

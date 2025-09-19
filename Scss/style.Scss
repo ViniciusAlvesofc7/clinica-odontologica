@@ -499,7 +499,6 @@ footer {
     .phone {
 
         h2 {
-            color: green;
             font-size: 16px !important;
             line-height: 1.4 !important;
             word-wrap: break-word !important;
@@ -517,15 +516,15 @@ footer {
     }
 
     .box-servicos {
-        height: 120px !important;
+        height: auto !important;
 
-        .box-single {
+        /*.box-single {
 
             p.t1,
             p.t2 {
                 display: none !important;
             }
-        }
+        }*/
     }
 
     footer {

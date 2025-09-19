@@ -390,7 +390,6 @@ footer section.footer i:hover {
 }
 @media screen and (max-width: 560px) {
   .phone h2 {
-    color: green;
     font-size: 16px !important;
     line-height: 1.4 !important;
     word-wrap: break-word !important;
@@ -404,11 +403,14 @@ footer section.footer i:hover {
     padding: 5px;
   }
   .box-servicos {
-    height: 120px !important;
-  }
-  .box-servicos .box-single p.t1,
-  .box-servicos .box-single p.t2 {
-    display: none !important;
+    height: auto !important;
+    /*.box-single {
+
+        p.t1,
+        p.t2 {
+            display: none !important;
+        }
+    }*/
   }
   footer section.footer {
     display: flex;

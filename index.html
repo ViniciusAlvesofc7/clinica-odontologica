@@ -36,8 +36,12 @@
                         <input type="email" name="email" placeholder="E-mail" required>
                         <input type="tel" name="telefone" placeholder="Telefone" required>
                         <div class="date-time">
-                            <input type="date" name="data" id="data" placeholder="Data" required>
-                            <input type="time" name="hora" min="09:00" max="19:00" placeholder="Horário" required>
+                            <label for="data">
+                                <input type="date" name="data" id="data" placeholder="Data" required>
+                            </label>
+                            <label for="hora">
+                                <input type="time" name="hora" min="09:00" max="19:00" placeholder="Horário" required>
+                            </label>
                         </div><!--date-time-->
                         <input type="submit" value="Enviar">
                     </form>
@@ -166,4 +170,4 @@
     <script src="index.js"></script>
 </body>
 
-</html> 
+</html>

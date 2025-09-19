@@ -113,12 +113,12 @@ section.formulario {
                 display: flex;
                 gap: 10px;
 
-                .horario{
+                .horario {
                     flex: 1;
 
                 }
 
-                label{
+                label {
                     display: block;
                     margin-bottom: 5px;
                     color: #7c0e07;
@@ -509,18 +509,20 @@ footer {
             margin-top: 5px !important;
         }
     }
-    
-    section.formulario{
+
+    section.formulario {
         margin-bottom: 20px;
 
     }
 
     .box-servicos {
-        height: auto !important;
-
-        p.t1,
-        p.t2 {
-            display: none !important;
+        .box-single {
+            height: 120px !important;
+            
+            p.t1,
+            p.t2 {
+                display: none !important;
+            }
         }
     }
 
@@ -541,7 +543,7 @@ footer {
                 width: 130px;
                 height: auto;
                 justify-content: space-between;
-                
+
                 i {
                     margin-right: 0 !important;
                 }

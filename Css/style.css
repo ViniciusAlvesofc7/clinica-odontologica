@@ -401,11 +401,11 @@ footer section.footer i:hover {
   section.formulario {
     margin-bottom: 20px;
   }
-  .box-servicos {
-    height: auto !important;
+  .box-servicos .box-single {
+    height: 120px !important;
   }
-  .box-servicos p.t1,
-  .box-servicos p.t2 {
+  .box-servicos .box-single p.t1,
+  .box-servicos .box-single p.t2 {
     display: none !important;
   }
   footer section.footer {

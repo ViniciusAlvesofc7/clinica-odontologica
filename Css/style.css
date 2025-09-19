@@ -399,7 +399,7 @@ footer section.footer i:hover {
     margin-top: 5px !important;
   }
   section.formulario {
-    height: 550px !important;
+    height: auto !important;
   }
   .box-servicos {
     height: 120px !important;
